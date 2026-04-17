@@ -44,14 +44,14 @@ func main() {
 	discount := 0.0
 	if summ >= 5000 {
 
-		discount := summ * 0.10
+		discount = summ * 0.10
 		fmt.Println(discount)
 		summ = summ - discount
 		fmt.Println("Итого", summ)
 	}
 
 	tax := summ * (12.0 / 100)
-	total := (summ + tax) - discount
+	total := (summ + tax)
 	fmt.Println("Итого с ндс", total)
 
 }
