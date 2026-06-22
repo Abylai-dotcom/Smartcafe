@@ -5,9 +5,9 @@ import (
 )
 
 func main() {
-	menu := map[string]float64{"Pizza": 3990, "Coke": 500, "Chicken Nuggets": 900, "French fries": 1100, "PiskaSiska": 999}
+	menu := map[string]float64{"Pizza": 3990, "Coke": 500, "Chicken Nuggets": 900, "French fries": 1100, "Donut": 999}
 
-	tempmap := map[string]float64{"Pizza": 0, "Coke": 0, "Chicken Nuggets": 0, "French fries": 0, "PiskaSiska": 0}
+	tempmap := map[string]float64{"Pizza": 0, "Coke": 0, "Chicken Nuggets": 0, "French fries": 0, "Donut": 0}
 
 	var choice string
 	fmt.Println("Добро пожаловать в меню")
